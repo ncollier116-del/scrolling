@@ -24,7 +24,7 @@ body{
 
 .container-2col {
   display: flex; 
-  flexdirection: row;
+  flex-direction: row;
   width: 100%;
 }
 .columb-left {
