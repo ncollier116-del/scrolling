@@ -6,62 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Parallex</title>
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 
-<body>
-    <div id="p1" class="p-img">
-        <div class="p-text-container">
-            <h2 class="p-text">Hello!</h2>
-        </div>
-    </div>
-    <section class="section">
-        <h2 class="section-title">Section One</h2>
-        <p class="section-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus,
-            commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis
-            eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus
-            voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga
-            laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat
-            dolor repellendus ratione in. Distinctio provident dolorem modi cumque illo enim quidem tempora deserunt
-            nostrum voluptate labore repellat quisquam quasi cum suscipit dolore ab consequuntur, ad porro earum
-            temporibus. Laborum ad temporibus ex, omnis!
-        </p>
-    </section>
-    <div id="p2" class="p-img">
-    </div>
-    <section class="section">
-        <h2 class="section-title">Section Two</h2>
-        <p class="section-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus,
-            commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis
-            eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus
-            voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga
-            laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat
-            dolor repellendus ratione in. Distinctio provident dolorem modi cumque illo enim quidem tempora deserunt
-            nostrum voluptate labore repellat quisquam quasi cum suscipit dolore ab consequuntur, ad porro earum
-            temporibus. Laborum ad temporibus ex, omnis!
-        </p>
-    </section>
-    <div id="p3" class="p-img">
-    </div>
-    <section class="section">
-        <h2 class="section-title">Section Three</h2>
-        <p class="section-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus,
-            commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis
-            eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus
-            voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga
-            laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat
-            dolor repellendus ratione in. Distinctio provident dolorem modi cumque illo enim quidem tempora deserunt
-            nostrum voluptate labore repellat quisquam quasi cum suscipit dolore ab consequuntur, ad porro earum
-            temporibus. Laborum ad temporibus ex, omnis!
-        </p>
-    </section>
-    <div id="p4" class="p-img">
-        <div class="p-text-container">
-            <h2 class="p-text">Goodbye!</h2>
-        </div>
-    </div>
-</body>
 
+<body>
+      <section id="section1">
+
+        <div id="title"> 
+        <h1>Nikki's World</h1>
+        <h4>----------------</h4>
+        
+<!-- contains watering can animation and intro story text -->
+            <div class="container-2col">
+                 <div class="columb-left">
+                <!-- insert can image -->
+                 
+                 </div>
+
+                <div class="columb-right">
+                <h2 id="intro/animation">intro</h2>
+                <p class="animated-text">As an artist, and as a person. I never saw myself keeping plants. What a limmiting belief? that I couldnt keep a plant?</p>
+                <p>However one day I decided to use the left over glass bottle, from a glittery bottle of alchohol my dad had gotten me for my 18th birthday. I was keeping a hold of it, unsure what to use it for... when I decided to grow a plant in it.</p>
+                </div>
+        </div>
+    </section>
+
+
+<!-- bar section, static. remember to set to solid purple. -->
+    <section id="section2">
+        <div>
+            
+            <p> All be it beautiful, the roots swisting and turning inside the see-through glass. </p>
+            <P>...they were stunted.</P>
+        </div>
+    </section>
+
+
+<!-- cloud animation section  -->
+    <section id="section3">
+        <div class="container-2col">
+            <div class="columb-left">
+                <!-- insert cloud images -->
+            </div>
+
+            <div class="colomb-right">
+                <p> when it rains ... it surly poors</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ascii square animation section -->
+    <section id="section4">
+        <div class="container-2col">
+            <div class="columb-left">
+                <p>I couldnt help but notice...</p>
+            </div>
+
+            <div class="column-right4">
+                <!-- insert ascii animation here -->
+                <img class="animation-frame frame1" src="images/ascii1.PNG" alt="a image of rain falling">
+                <img class="animation-frame frame2" src="images/ascii2.PNG" alt="">
+                <img class="animation-frame frame3" src="images/ascii4.PNG" alt="">
+                <img class="animation-frame frame4" src="images/ascii5.PNG" alt="">
+                <img class="animation-frame frame5" src="images/ascii6.PNG" alt="">
+            </div>
+        </div>
+    </section>
+
+    
+    
+<script>
+  document.querySelector(".animated-text").classList.add("show");
+</script>
+</body> 
 </html>
